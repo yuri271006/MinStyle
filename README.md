@@ -36,14 +36,21 @@ Ví dụ: <div class="minstyle"></div>
 
 -->MinStyle thật sự là phong cách nhỏ dễ hiểu, dẫu vậy nó lại yêu cầu rất chặt chẽ!!! Có thể hình dung đó nó dự trên qui luật cha - con để hoạt động. Điều này có nghĩa, chỉ cần thiếu một class thuộc tính thì MinStyle sẽ không chạy.
 
--->MinStyle qui định class thuộc tính như sau: mins- + thuộc tính + kích thước.
+-->MinStyle qui định class thuộc tính như sau: mins- + thuộc tính + class mở rộng của thuộc tính như class radius của thẻ border hoặc class quy định các kích thước như: sm, md, lg.
 
-<!--Dưới đây là các Class thuộc tính -->
+-->Có thể hình dùng nó với qui tắc:
+   .class thuộc tính cha
+        .class thuộc tính mở rộng của cha
+            .class chỉ các kích thước của thuộc tính cha
+     
+<!--Dưới đây là ví dụ các Class thuộc tính -->
+
 .minstyle
 .mins
 .mins-border
 .mins-alert
 .mins-button
+
 <!--/////////////////////////////-->
 
 < Cách sử dụng tiếng Việt trong MinStyle >
@@ -62,9 +69,17 @@ Ví dụ: <div class="minstyle"></div>
 
 # jquery.min.js: (Thư viện Jquery)
 
+<script src="Đường dẫn của bạn /minstyle/jquery.min.js"></script>
+
 # mins.min.js: 
 
 <script src="Đường dẫn của bạn /minstyle/mins.min.js"></script>
+
+--> #Khi sử dụng mins font:
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&family=Noto+Sans+JP:wght@200&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
 
 <!------------------------------------------------------->

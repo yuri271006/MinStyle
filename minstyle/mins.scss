@@ -1,0 +1,60 @@
+//Code dựng bởi La Quí Cường
+
+//------Các Biến------
+$sm: 5px; $md: 10px; $lg: 15px;
+//--------------------
+.minstyle.mins-check{
+    border: 1px solid white;
+    background-color: #2C9BF4;
+}
+.minstyle{
+    padding: 0;
+    margin: 0;
+    font-family: 'M PLUS 1 Code', monospace;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+    //-------------------------------------- border (Viền) và border-radius (Bo tròn viền)
+
+    .mins-border{border: 1px solid #2C9BF4;}
+    .mins-border.mss-border.md{border: 2px solid #2C9BF4;}
+    .mins-border.mss-border.lg{border: 3px solid #2C9BF4;}
+    .mins-border.mss-border.ex{border: 4px solid #2C9BF4;}
+    //Các màu của border - Kích thước của chúng: 1px, 2px, 3px, 4px.
+    //danger (Nguy hiểm)
+    .mins-border.danger, .mins-border.danger.mss-border.sm{border: 1px solid #dc3545;}
+    .mins-border.danger.mss-border.md{border: 2px solid #dc3545;}
+    .mins-border.danger.mss-border.lg{border: 3px solid #dc3545;}
+    .mins-border.danger.mss-border.ex{border: 4px solid #dc3545;}
+    //warning (Cảnh báo)
+    .mins-border.warning, .mins-border.warning.mss-border.sm{border: 1px solid #ffc107;}
+    .mins-border.warning.mss-border.md{border: 2px solid #ffc107;}
+    .mins-border.warning.mss-border.lg{border: 3px solid #ffc107;}
+    .mins-border.warning.mss-border.ex{border: 4px solid #ffc107;}
+    //info (Thông tin)
+    .mins-border.info, .mins-border.info.mss-border.sm{border: 1px solid #17a2b8;}
+    .mins-border.info.mss-border.md{border: 2px solid #17a2b8;}
+    .mins-border.info.mss-border.lg{border: 3px solid #17a2b8;}
+    .mins-border.info.mss-border.ex{border: 4px solid #17a2b8;}
+    //baic (Cơ bản)
+    .mins-border.basic, .mins-border.basic.mss-border.sm{border: 1px solid #007bff;}
+    .mins-border.basic.mss-border.md{border: 2px solid #007bff;}
+    .mins-border.basic.mss-border.lg{border: 3px solid #007bff;}
+    .mins-border.basic.mss-border.ex{border: 4px solid #007bff;}
+    //success (Thành công)
+    .mins-border.done, .mins-border.done.mss-border.sm{border: 1px solid #28a745;}
+    .mins-border.done.mss-border.md{border: 2px solid #28a745;}
+    .mins-border.done.mss-border.lg{border: 3px solid #28a745;}
+    .mins-border.done.mss-border.ex{border: 4px solid #28a745;}
+    //Bo tròn
+    .mins-border.radius, .mins-border.radius.mss-radius.sm{
+        border-radius: $sm;
+    }
+    .mins-border.radius.mss-radius.md{
+        border-radius: $md;
+    }
+    .mins-border.radius.mss-radius.lg{
+        border-radius: $lg;
+    }
+    //--------------------------------------
+}
