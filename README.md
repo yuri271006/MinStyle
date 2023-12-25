@@ -1,5 +1,5 @@
-### MinSyle (minstyle - mins) ###
-# Tác giả: La Quí Cường [0782887860] (Yuri)
+# MinSyle (minstyle - mins) #
+### Tác giả: La Quí Cường [0782887860] (Yuri) ###
 
 1. Giới thiệu:
 
@@ -31,5 +31,8 @@ Ví dụ: <body class="minstyle"></body>
 Ví dụ: <div class="minstyle"></div>
 
 --> Và vâng, MinStyle chỉ có tác dụng trong phạm vi thẻ div ấy!
+
+</Note>
+
 
 
