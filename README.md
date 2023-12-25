@@ -34,5 +34,38 @@ Ví dụ: <div class="minstyle"></div>
 
 </Note>
 
+-->MinStyle thật sự là phong cách nhỏ dễ hiểu, dẫu vậy nó lại yêu cầu rất chặt chẽ!!! Có thể hình dung đó nó dự trên qui luật cha - con để hoạt động. Điều này có nghĩa, chỉ cần thiếu một class thuộc tính thì MinStyle sẽ không chạy.
+
+-->MinStyle qui định class thuộc tính như sau: mins- + thuộc tính + kích thước.
+
+<!--Dưới đây là các Class thuộc tính -->
+.minstyle
+.mins
+.mins-border
+.mins-alert
+.mins-button
+<!--/////////////////////////////-->
+
+< Cách sử dụng tiếng Việt trong MinStyle >
+
+--> Không còn gì dễ hơn với thuộc tính class của mins và thuộc tính mins-vi="Nội dung định dang bằng tiếng Việt". 
+
+<!------------------------------------------------------->
+
+--> #Copy code này dán vào file của bạn: 
+
+# mins.css:  
+
+<link rel="stylesheet" href="Đường dẫn của bạn /minstyle/mins.css">
+
+--> #Khi code mins bằng tiếng Việt, các code sau là bắt buộc:
+
+# jquery.min.js: (Thư viện Jquery)
+
+# mins.min.js: 
+
+<script src="Đường dẫn của bạn /minstyle/mins.min.js"></script>
 
 
+<!------------------------------------------------------->
+### Hãy sử dụng mins thật vui vẻ ###
